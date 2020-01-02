@@ -3,29 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66BB25A0EDAF736E17C75E1B /* Pods_FBLoginExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29D25F081A4D8BA18830B4C /* Pods_FBLoginExample.framework */; };
 		AA32105F23BDEA42000D612F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32105E23BDEA42000D612F /* AppDelegate.m */; };
-		AA32106223BDEA42000D612F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32106123BDEA42000D612F /* ViewController.m */; };
+		AA32106223BDEA42000D612F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32106123BDEA42000D612F /* LoginViewController.m */; };
 		AA32106523BDEA42000D612F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32106323BDEA42000D612F /* Main.storyboard */; };
 		AA32106723BDEA45000D612F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA32106623BDEA45000D612F /* Assets.xcassets */; };
 		AA32106A23BDEA45000D612F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32106823BDEA45000D612F /* LaunchScreen.storyboard */; };
 		AA32106D23BDEA45000D612F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32106C23BDEA45000D612F /* main.m */; };
+		AA32107723BE0486000D612F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32107523BE0486000D612F /* NextViewController.m */; };
+		AA32107823BE0486000D612F /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA32107623BE0486000D612F /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93D18D2FC5A86B5FE93560E3 /* Pods-FBLoginExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLoginExample.release.xcconfig"; path = "Target Support Files/Pods-FBLoginExample/Pods-FBLoginExample.release.xcconfig"; sourceTree = "<group>"; };
 		AA32105A23BDEA42000D612F /* FBLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA32105D23BDEA42000D612F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA32105E23BDEA42000D612F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA32106023BDEA42000D612F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA32106123BDEA42000D612F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA32106023BDEA42000D612F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AA32106123BDEA42000D612F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AA32106423BDEA42000D612F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA32106623BDEA45000D612F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA32106923BDEA45000D612F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA32106B23BDEA45000D612F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA32106C23BDEA45000D612F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA32107423BE0486000D612F /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AA32107523BE0486000D612F /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		AA32107623BE0486000D612F /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		F29D25F081A4D8BA18830B4C /* Pods_FBLoginExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLoginExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD3DD8EEB03D0AB94E8FA63 /* Pods-FBLoginExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLoginExample.debug.xcconfig"; path = "Target Support Files/Pods-FBLoginExample/Pods-FBLoginExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BB25A0EDAF736E17C75E1B /* Pods_FBLoginExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0231128D22404BA21FD8434A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD3DD8EEB03D0AB94E8FA63 /* Pods-FBLoginExample.debug.xcconfig */,
+				93D18D2FC5A86B5FE93560E3 /* Pods-FBLoginExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F4127A12CCA4D02236C8F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29D25F081A4D8BA18830B4C /* Pods_FBLoginExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA32105123BDEA42000D612F = {
 			isa = PBXGroup;
 			children = (
 				AA32105C23BDEA42000D612F /* FBLoginExample */,
 				AA32105B23BDEA42000D612F /* Products */,
+				0231128D22404BA21FD8434A /* Pods */,
+				5F4127A12CCA4D02236C8F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +87,9 @@
 		AA32105C23BDEA42000D612F /* FBLoginExample */ = {
 			isa = PBXGroup;
 			children = (
+				AA32107323BE0423000D612F /* ViewControllers */,
 				AA32105D23BDEA42000D612F /* AppDelegate.h */,
 				AA32105E23BDEA42000D612F /* AppDelegate.m */,
-				AA32106023BDEA42000D612F /* ViewController.h */,
-				AA32106123BDEA42000D612F /* ViewController.m */,
 				AA32106323BDEA42000D612F /* Main.storyboard */,
 				AA32106623BDEA45000D612F /* Assets.xcassets */,
 				AA32106823BDEA45000D612F /* LaunchScreen.storyboard */,
@@ -71,6 +99,18 @@
 			path = FBLoginExample;
 			sourceTree = "<group>";
 		};
+		AA32107323BE0423000D612F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA32106023BDEA42000D612F /* LoginViewController.h */,
+				AA32106123BDEA42000D612F /* LoginViewController.m */,
+				AA32107423BE0486000D612F /* NextViewController.h */,
+				AA32107523BE0486000D612F /* NextViewController.m */,
+				AA32107623BE0486000D612F /* NextViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA32107023BDEA45000D612F /* Build configuration list for PBXNativeTarget "FBLoginExample" */;
 			buildPhases = (
+				9007A6324E9DFAB63A5D024D /* [CP] Check Pods Manifest.lock */,
 				AA32105623BDEA42000D612F /* Sources */,
 				AA32105723BDEA42000D612F /* Frameworks */,
 				AA32105823BDEA42000D612F /* Resources */,
+				45491D413C4276F4E37F3F68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA32106A23BDEA45000D612F /* LaunchScreen.storyboard in Resources */,
+				AA32107823BE0486000D612F /* NextViewController.xib in Resources */,
 				AA32106723BDEA45000D612F /* Assets.xcassets in Resources */,
 				AA32106523BDEA42000D612F /* Main.storyboard in Resources */,
 			);
@@ -136,12 +179,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45491D413C4276F4E37F3F68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBLoginExample/Pods-FBLoginExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBLoginExample/Pods-FBLoginExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBLoginExample/Pods-FBLoginExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9007A6324E9DFAB63A5D024D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBLoginExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA32105623BDEA42000D612F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA32106223BDEA42000D612F /* ViewController.m in Sources */,
+				AA32106223BDEA42000D612F /* LoginViewController.m in Sources */,
+				AA32107723BE0486000D612F /* NextViewController.m in Sources */,
 				AA32106D23BDEA45000D612F /* main.m in Sources */,
 				AA32105F23BDEA42000D612F /* AppDelegate.m in Sources */,
 			);
@@ -224,6 +310,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -276,6 +363,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -283,10 +371,11 @@
 		};
 		AA32107123BDEA45000D612F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD3DD8EEB03D0AB94E8FA63 /* Pods-FBLoginExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M7GDDFFA5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FBLoginExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,16 +383,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.rsia.fb.FBLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AA32107223BDEA45000D612F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D18D2FC5A86B5FE93560E3 /* Pods-FBLoginExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M7GDDFFA5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FBLoginExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +402,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.rsia.fb.FBLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

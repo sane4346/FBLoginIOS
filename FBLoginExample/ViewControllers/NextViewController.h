@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NextViewController.h
 //  FBLoginExample
 //
 //  Created by Santosh Chaurasia on 1/2/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface NextViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
